@@ -18,3 +18,5 @@ class general {
         return cy.get('.modal-close', { timeout: constantTime })
       }
 }
+
+export default general

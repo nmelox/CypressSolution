@@ -2,7 +2,7 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   env: {
-    urlApp: "https://cloud.cypress.io/login/email",
+    urlApp: "https://todomvc.com/examples/vue/#/active",
     viewportWidth: 1920,
     viewportHeight: 1080,
     appUser: "standard_user",
